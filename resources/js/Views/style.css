@@ -1,0 +1,247 @@
+ @import 'instantsearch.css/themes/algolia-min';
+
+
+/* @import "../Jewels-Eshop/node_modules/bootstrap/scss/_functions"; */
+
+/* @import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";  */
+
+.home{
+    background-color:#000000;
+    position: relative;
+    width:1950px;
+    left:-61px;
+    top:-16px;
+    
+    height:2953px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size:cover;
+
+    .footer{
+        background-color: rgb(17, 0, 255);
+        position: absolute;
+  
+        
+    }
+    
+
+    .part1{
+        z-index: 1;
+        height:2660px;
+       
+        width:251px;
+        background-color: rgb(46, 233, 240);
+        background-size: cover;
+
+       
+    
+        a{
+            font-weight:800;
+            color:rgb(0, 0, 0);
+            font-size: 28px;
+            /* background-color:#c7760c */
+
+        }
+
+        
+        a:hover{
+            font-weight:800;
+            color:rgb(99, 99, 163);
+            font-size: 28px;
+
+        }
+
+        
+    
+}
+    .title{
+        a{
+        font-size: 40px;
+        color:rgb(221, 223, 233);
+        }
+    }
+    .part2{
+        height:500px;
+        width:150px;
+        background-color: rgb(231, 16, 16);
+        z-index: 1;
+        
+    }
+    .btnShop{
+        height:50px;
+        background-color: rgb(245, 237, 237);
+        width:150px;
+        border-radius: 20px;
+        font-size: 20px;
+        background-color: rgb(17, 232, 240);
+    }
+    .btnShop:hover{
+        height:50px;
+        background-color: rgb(245, 237, 237);
+        width:150px;
+        border-radius: 20px;
+        font-size: 20px;
+        background-color: rgb(225, 224, 243);
+    }
+
+.barbtns{
+    
+    font-weight:800;
+    color:rgb(9, 9, 197);
+    font-size: 28px;
+
+}
+
+.barbtns:hover{
+    
+    font-weight:800;
+    color:rgb(79, 79, 180);
+    font-size: 28px;
+
+}
+
+.logReg{
+    z-index: 1;
+
+    font-size: 20px;
+     a{ 
+    color:rgb(71, 102, 150);
+   }
+}
+
+.title{
+
+    img{
+        /* rotate: 120deg; */
+    }
+}
+
+.shop{
+    color:rgb(226, 225, 241);
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     .jewelName{
+       
+        margin-left:1px;
+        margin-right:100px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+       pre{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }
+       
+       
+       img{
+        border-radius: 20px;
+        display:inline-block;
+        margin-left:200px;
+        margin-bottom:20px;
+     }
+
+     img:hover{
+        border-radius: 20px;
+        opacity: 0.7;
+        display:inline-block;
+        margin-left:200px;
+        margin-bottom:20px;
+     }
+
+     .jewelDesc{
+        a{
+      
+         margin-left:189px;
+         margin-right:25px;
+         
+        
+         
+        }
+      }
+      .jewelPrice{
+        a{
+         margin-left:270px;
+         margin-right:81px;
+        }
+      }
+
+
+
+}
+
+    
+
+}
+.favouritesRoute{
+    background-size: cover;
+    .background{
+        background-size: cover;
+       .part1{
+        background-size:cover;
+       }
+    }
+}
+
+.favourites{
+   
+    height:3000px;
+    background-color: #000000;
+    
+    background-size:auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     h1{
+        font-size: 30px;
+      
+     }
+     .title{
+        img{
+           
+        };
+     }
+
+    .favouritelist{
+      
+    img{
+        border-radius: 20px;
+       
+    }
+    a{
+        font-size: 20px;
+
+    }
+
+    tr{
+        margin:10px;
+    }
+}
+}
+
+    .email{
+        a{
+            color:azure;
+        }
+        .emailform{
+        button{
+            color:azure;
+        }
+    }
+    }
+
+    .product{
+        button{
+            color:rgb(10, 19, 19);
+            background-color:aqua;
+        }
+
+        button:hover{
+            color:rgb(232, 238, 238);
+            background-color: #441e05;
+        }
+    }
+
+   
+
+}
