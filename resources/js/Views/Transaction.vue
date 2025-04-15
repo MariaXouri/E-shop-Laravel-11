@@ -73,32 +73,21 @@
 
 
 
-         <h1 style="position:absolute; left:100px; top:750px; font-size: 21px; color:aliceblue;">Card number</h1>
-         <input style="position:absolute; left:100px; top:790px; font-size: 21px; color:aliceblue; width: 450px; height:26px; border-radius: 3px; color:black;">
+         <h1 style="position:absolute; left:100px; top:1030px; font-size: 21px; color:aliceblue;">Card number</h1>
+         <input style="position:absolute; left:100px; top:1070px; font-size: 21px; color:aliceblue; width: 450px; height:26px; border-radius: 3px; color:black;">
         
-         <button style="position:absolute; left:540px; top:770px; font-size: 21px; color:aliceblue; width:100px; height:70px; border-radius: 35px; color:aqua;">Pay</button>
+         <button style="position:absolute; left:540px; top:1050px; font-size: 21px; color:aliceblue; width:100px; height:70px; border-radius: 35px; color:aqua;">Pay</button>
 
          <!-- <h1 style="position:absolute; left:100px; top:2790px; font-size: 20px; color:aliceblue; right:500px;"> {{total}} euros</h1> -->
 
      </div>
 
-     <div style="position:absolute; left:200px; top:990px; font-size: 20px; color:aliceblue; right:500px;">
-        <li v-for="item in items" :key="item.id">
-
-  ${{ Number(item.jewel.price).toFixed(2) }}
- 
-</li>
-<p>Total: ${{ Number(total).toFixed(2) }}</p>
-
-    <!-- <h2>🛒 My Cart </h2>
-    <ul v-if="items.length">
-      <li v-for="item in items" :key="item.id">
-         ${{ item.jewel.price.toFixed(2) }}
-      </li>
-    </ul>
-    <p v-if="total !== null">Total: ${{ total.toFixed(2) }}</p>
-    <p v-else>Loading...</p> -->
-  </div>
+     <div style="position:absolute; left:200px; top:710px; font-size: 18px; color:aliceblue; right:500px;">
+        <h1 v-for="item in items" :key="item.id">
+          ${{ Number(item.jewel.price).toFixed(2) }}
+        </h1>
+        <p>Total: ${{ Number(total).toFixed(2) }}</p>
+      </div>
        
           <!-- <img  style="position:absolute;  left:390px; width:30px;  top:210px;" "> -->
 <!-- 
